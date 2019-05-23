@@ -33,12 +33,10 @@ int main()
     {
         if(v[i]>v1[j])
         {
-            v_t[++k2] = v1[j];
             j++;
         }
         else if(v[i]<v1[j])
         {
-            v_t[++k2] = v[i];
             i++;
         }
         else if(v[i]==v1[j])
